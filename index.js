@@ -3,7 +3,7 @@ const http = require("http");
 const express = require("express");
 const cors = require("cors");
 const { ChessRoom } = require("./room");
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors());
